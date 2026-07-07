@@ -18,7 +18,7 @@ const PROJECTS_DATA = [
       'Built with React and TypeScript, MIND-EASE integrates AI chatbot capabilities, daily mood journals, crisis hotline access, and mental health diagnostic quizzes. Features a fully responsive UI with animated transitions.',
     tags: ['React', 'TypeScript', 'AI Integration', 'UX Design', 'Node.js'],
     githubUrl: 'https://github.com/Abz-Kaz/MIND-EASE',
-    liveUrl: '#',
+    liveUrl: 'https://mind-ease-anonymousai.vercel.app/',
     featured: true,
   },
   {
@@ -33,7 +33,7 @@ const PROJECTS_DATA = [
       'A full music learning platform built with HTML5, CSS3 and vanilla JavaScript. Includes a virtual playable piano using the Web Audio API, interactive drum pads, and animated guitar strumming visualization.',
     tags: ['HTML5', 'CSS3', 'JavaScript', 'Web Audio API', 'UI/UX'],
     githubUrl: 'https://github.com/Abz-Kaz/Online-Instruments-main',
-    liveUrl: '#',
+    liveUrl: 'https://online-instruments-main.vercel.app/',
   },
   {
     id: 3,
@@ -152,7 +152,15 @@ export default function Projects() {
 
             <div className="project-category-badge">{project.category}</div>
 
-            <h3 className="project-title">{project.title}</h3>
+            <h3 className="project-title">
+              {project.liveUrl !== '#' ? (
+                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-title-link">
+                  {project.title}
+                </a>
+              ) : (
+                project.title
+              )}
+            </h3>
             <p className="project-desc">
               {expandedCard === project.id ? project.longDescription : project.description}
             </p>
