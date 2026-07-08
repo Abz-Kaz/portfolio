@@ -1,32 +1,16 @@
-# Abdullah Kazmi's Portfolio Project 🚀
+# React + Vite
 
-Welcome to your portfolio project! This template is built with a **React (Vite) frontend** and a **Node.js (Express) backend**. It has a premium, modern dark-themed UI with glassmorphism styling and custom animations. 
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Crucially, this repository has been designed as a **learning playground** for you. The structure is simple, standard, and filled with empty slots and educational code comments so you can dive in and build it out yourself!
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 📁 Project Structure
+## React Compiler
 
-```text
-portfolio-abdullah-kazmi/
-├── client/                  # Frontend (React + Vite)
-│   ├── src/
-│   │   ├── components/      # React Components (Hero, About, Projects, Contact, Navbar)
-│   │   ├── App.jsx          # Mounts and layouts components
-│   │   ├── index.css        # The complete UI design styling & variables
-│   │   └── main.jsx         # React entry point
-│   ├── index.html           # Main HTML file (SEO meta-tags go here!)
-│   └── package.json         # Frontend packages & scripts
-│
-├── server/                  # Backend (Node.js + Express)
-│   ├── server.js            # Express server & API endpoints
-│   ├── .env                 # Server configuration environment variables
-│   └── package.json         # Backend packages & scripts
-│
-└── README.md                # This Guide
-```
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the Oxlint configuration
 
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
