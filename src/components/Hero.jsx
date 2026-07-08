@@ -77,7 +77,7 @@ export default function Hero() {
             <a href="https://safexsolutions.com/" target="_blank" rel="noopener noreferrer" className="inline-link">
               SafeX Solutions
             </a>
-            , a global IT &amp; digital solutions company. I craft modern web applications with
+            , a global IT & digital solutions company. I craft modern web applications with
             React, Node.js, and TypeScript, and immersive gameplay experiences with C++ and Unity.
           </p>
 

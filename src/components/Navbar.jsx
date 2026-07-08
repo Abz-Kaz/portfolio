@@ -44,9 +44,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <a href="#hero" className="nav-logo" onClick={closeMenu}>
-          <span className="nav-logo-bracket">&lt;</span>
-          AK
-          <span className="nav-logo-bracket"> /&gt;</span>
+          AK<span className="nav-logo-dot">.</span>
         </a>
 
         <button

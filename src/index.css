@@ -309,10 +309,9 @@ strong {
   filter: brightness(1.2);
 }
 
-.nav-logo-bracket {
+.nav-logo-dot {
   color: var(--secondary);
   -webkit-text-fill-color: var(--secondary);
-  font-weight: 400;
 }
 
 .nav-links {

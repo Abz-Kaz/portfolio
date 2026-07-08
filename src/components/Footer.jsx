@@ -49,7 +49,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container footer-content">
           <p className="footer-text">
-            Designed &amp; Built by <span className="footer-name">Abdullah Kazmi</span> · React + Vite + Node.js
+            Designed & Built by <span className="footer-name">Abdullah Kazmi</span> · React + Vite + Node.js
           </p>
           <p className="footer-copy">
             &copy; {currentYear} Abdullah Kazmi. All rights reserved.
