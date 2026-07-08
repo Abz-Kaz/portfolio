@@ -47,11 +47,6 @@ export default function Hero() {
     <section id="hero" className="hero-section section container">
       <div className="hero-grid reveal" ref={revealRef}>
         <div className="hero-content">
-          <span className="hero-subtitle">
-            <span className="hero-subtitle-dot" />
-            Hi, my name is
-          </span>
-
           <a
             href="#experience"
             className="hero-internship-badge"
@@ -59,6 +54,11 @@ export default function Hero() {
             <span className="hero-internship-pulse" />
             Intern @ SafeX Solutions
           </a>
+
+          <span className="hero-subtitle">
+            <span className="hero-subtitle-dot" />
+            Hi, my name is
+          </span>
 
           <h1 className="hero-title">
             <span className="hero-name">Abdullah Kazmi.</span>
